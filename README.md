@@ -6,7 +6,6 @@
 
 [![Status](https://img.shields.io/badge/status-v4.0-gold)]()
 [![Stack](https://img.shields.io/badge/stack-HTML%20%2B%20CSS%20%2B%20JS-blue)]()
-[![License](https://img.shields.io/badge/license-MIT-green)]()
 
 ---
 
@@ -79,8 +78,9 @@
 
 ## 🚀 如何查看
 
-项目就是一个单独的 HTML 文件，**不需要任何构建工具、不需要服务器、不需要联网**：
+**👉 [在线预览](https://panglezym.github.io/Honor-of-Kings-Intelligent-Customer-Service-Agent/)**
 
+也可以下载 `index.html`，直接用浏览器打开。项目就是一个单独的 HTML 文件，**不需要任何构建工具、不需要服务器、不需要联网**。
 
 ### 键盘快捷键（演示模式）
 
@@ -97,10 +97,7 @@
 ```
 .
 ├── index.html   # 主文件：设计文档 + 演示合一
-├── README.md                      # 你正在看的这份
-└── assets/                        # （可选）截图 / 演示 GIF
-    ├── preview-demo.png
-    └── preview-arch.png
+└── README.md    # 你正在看的这份
 ```
 
 ---
@@ -121,7 +118,7 @@
 ## 💡 设计亮点
 
 - **多 Agent 并行 vs 单 Agent 串行的取舍**：复合问题时延从 2.3s 压到 1.2s，但牺牲了 Orchestrator 的调度复杂度
-- **降级链路的完整性**：失败时如何优雅升级，而不是"强行回答"——涉及账号安全类问题的医疗伦理级底线
+- **降级链路的完整性**：失败时如何优雅升级，而不是"强行回答"——涉及账号安全类问题的安全底线
 - **多语言的真正价值**：同一个问题，国服玩家不能退、泰国玩家可以退——关键在规则继承而非翻译
 - **情绪前置处理**：愤怒分值 0.82 时主动降低升人工阈值至 0.75
 
@@ -141,7 +138,7 @@
 
 ## 📝 License
 
-MIT License · 可自由使用、修改、分发，保留版权声明即可。
+仅供学习交流，转载请注明出处。
 
 商标说明：*Honor of Kings*（王者荣耀）是腾讯（Tencent）旗下注册商标，本项目仅作为技术设计展示用途，与腾讯无任何关联。
 
